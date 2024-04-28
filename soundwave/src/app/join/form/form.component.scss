@@ -1,0 +1,50 @@
+
+:host{
+    
+  section {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+    .main .text {
+      grid-column: 2;
+      width: 50%;
+  }
+  
+    button{
+        background-color: #1762A7;
+    }
+
+    button:hover{
+        background-color: #2180d8;
+    }
+    .circle-1{
+        width: 400px;
+        height: 400px;
+        position: fixed;
+        border-radius: 50%;
+        
+        background-color: #bc3a801a;
+        z-index: -1;
+      }
+    
+      .circle-2{
+        width: 400px;
+        height: 400px;
+        position: fixed;
+        border-radius: 50%;
+        background-color: #3457b21a;
+        z-index: -1;
+      }
+    
+      .circle-3{
+        width: 400px;
+        height: 400px;
+        position: fixed;
+        border-radius: 50%;
+        background-color: #3457b21a;
+        z-index: -1;
+      }
+
+}

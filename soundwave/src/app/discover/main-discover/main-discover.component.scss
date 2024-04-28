@@ -1,0 +1,21 @@
+
+  .main-container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .main-container img {
+    max-height: 35vh;
+  }
+    .main .text {
+      grid-column: 2;
+      width: 50%;
+  }
+  
+  ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+

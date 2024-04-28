@@ -1,0 +1,85 @@
+
+
+:host {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    height: 100vh;     
+    display: block;
+    margin: 0 auto;
+    max-width: 61vw;
+}
+
+
+:host{
+  nav{
+    height: 90px;
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+
+  }
+
+  h1{
+    color: white;
+  }  
+  ul{
+    padding: 0;
+    display: grid;
+    align-items: center;
+  }
+
+  .isotipe{
+    grid-template-columns: 72px 1fr;
+  }
+
+  .navBar{
+    grid-template-columns: 1fr 1fr;
+  }
+  li{
+    list-style: none;
+    padding: 0 1em;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
+}
+
+@media(max-width: 600px){
+    :host{
+        grid-template-columns: 1fr;
+        max-width: unset;
+    }
+
+}
+button{
+    background-color: #1762A7;
+}
+
+.circle1{
+    width: 700px;
+    height: 700px;
+    position: fixed;
+    border-radius: 50%;
+    background-color: #bc3a801a;
+    z-index: -1;
+
+  }
+
+  .circle2{
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    border-radius: 50%;
+    background-color: #3457b21a;
+    z-index: -1;
+  }
+
+
+
+@media(max-width: 368px){
+    :host{
+        grid-template-columns: 1fr;
+    }
+}

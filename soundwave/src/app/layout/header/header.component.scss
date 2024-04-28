@@ -1,0 +1,37 @@
+
+:host{
+  nav{
+    height: 90px;
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+
+  }
+
+  ul{
+    padding-inline-start: 0;
+    display: grid;
+    align-items: center;
+  }
+
+  .isotipe{
+    grid-template-columns: 72px 1fr;
+  }
+
+  .navBar{
+    grid-template-columns: 1fr 1fr;
+  }
+  li{
+    list-style: none;
+    padding: 0 1em;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
+}
+
+// @media(min-width:368px){
+//     :host{
+//     }
+// }
