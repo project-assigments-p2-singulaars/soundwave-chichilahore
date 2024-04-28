@@ -1,0 +1,12 @@
+@import "../../../styles.scss";
+
+:host{
+    grid-row: span 2;
+    background-color: orange;
+    @include center;
+    grid-area: aside;
+}
+
+.active {
+    background-color: red;
+}

@@ -1,0 +1,6 @@
+:host {
+    display: grid;
+    grid-template-columns: 20vw 80vw;
+    grid-template-rows: 20vh 80vh;
+    grid-template-areas: "aside header" "aside dashboard" ;
+  }

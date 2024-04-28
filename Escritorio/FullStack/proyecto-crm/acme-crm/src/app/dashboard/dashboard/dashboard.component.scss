@@ -1,0 +1,9 @@
+@import "../../../styles.scss";
+
+:host{
+    @include center;
+    background-color: pink;
+    font-size: 2rem;
+    grid-area: dashboard;
+}
+

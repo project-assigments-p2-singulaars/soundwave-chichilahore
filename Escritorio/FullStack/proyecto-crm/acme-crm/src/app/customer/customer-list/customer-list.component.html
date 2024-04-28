@@ -1,0 +1,7 @@
+<ul>
+    @for (customer of customers; track $index) {
+        <li>
+            <a [routerLink]="['/customer', customer.id]"> {{ customer.name }}</a>
+        </li>
+    }
+</ul>
